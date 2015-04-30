@@ -28,7 +28,6 @@ RUN cd /usr/lib/node_modules/codebox/node_modules/shux/node_modules/pty.js \
 
 RUN mkdir -p /opt/codebox_data/workspace
 ENV HOME /opt/codebox_data
-ENV PORT 9000
 
 # Copy start script
 ADD start.sh /root/start.sh
