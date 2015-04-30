@@ -26,7 +26,7 @@ RUN npm install -g codebox
 RUN cd /usr/lib/node_modules/codebox/node_modules/shux/node_modules/pty.js \
     && make clean && make
 
-RUN mkdir -p /opt/codebox_data
+RUN mkdir -p /opt/codebox_data/workspace
 ENV HOME /opt/codebox_data
 
 # Copy start script
